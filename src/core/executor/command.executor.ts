@@ -4,7 +4,7 @@ import { ICommandExact } from "./command.types";
 
 
 
-export abstract class CommndExecutor <Input> {
+export abstract class CommandExecutor <Input> {
   constructor(private logger: IStreamLogger){}
 
   public async execute(){
